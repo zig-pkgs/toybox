@@ -1,0 +1,18 @@
+.{
+    .name = .toybox,
+    .version = "0.8.14",
+    .fingerprint = 0xdbcc70d629222c00, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .scripts = .{ .path = "scripts" },
+        .upstream = .{
+            .url = "git+https://codeberg.org/landley/toybox.git#38ebde21f295e23c81b0825f2227921963949ef0",
+            .hash = "N-V-__8AAG60YwBovG0VSCday0WqgXVuNBTiyn_2VhyT1RlH",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
