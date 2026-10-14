@@ -2,7 +2,7 @@
     .name = .toybox,
     .version = "0.8.14",
     .fingerprint = 0xdbcc70d629222c00, // Changing this has security and trust implications.
-    .minimum_zig_version = "0.16.0",
+    .minimum_zig_version = "0.17.0",
     .dependencies = .{
         .scripts = .{ .path = "scripts" },
         .upstream = .{
